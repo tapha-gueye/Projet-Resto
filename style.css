@@ -4,29 +4,43 @@
     background-size: cover;
     height: 700px;
 }
+.menu-primaire h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.menu-primaire h1 span{
+    color: rgb(232, 112, 13);
+    padding: 5px 5px;;
+}
+
 .menu-primaire{
     margin-left: 50px;
 }
 .menu-primaire ul{
     display: flex;
-    padding-left: 500px;
+    padding-left: 380px;
    
 }
 .menu-primaire ul li{
     padding: 30px;
     list-style-type: none;
-    margin-top: -50px;
+    margin-top: -60px;
 }
 .menu-primaire ul li a{
     text-decoration: none;
-   
-}
-.menu-primaire h1{
     color: white;
     font-size: 1.5em;
+    background-color: rgb(232, 112, 13);
+    padding: 5px 5px;
+    border-radius: 3px;
   
+   
 }
-.menu-primaire h1 span{
-    color: rgb(232, 112, 13);
-    
+.menu-primaire a{
+    margin-top: -35px;
+    font-size: 2.4em;
+    color: white;
+
 }
+
