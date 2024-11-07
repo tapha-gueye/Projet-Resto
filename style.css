@@ -1,7 +1,13 @@
 .Menu{
     background-image: url(background\ img.JPG);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
+.menu-primaire{
+    margin-left: 50px;
+}
+
 .menu-primaire h1{
     color: white;
     font-size: 1.5em;
