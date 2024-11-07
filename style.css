@@ -2,3 +2,6 @@
     background-image: url(background\ img.JPG);
     background-repeat: no-repeat;
 }
+.menu.primaire h2 span{
+    color: rgb(232, 112, 13);
+}
