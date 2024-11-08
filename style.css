@@ -38,8 +38,10 @@
     border-radius: 3px;
     text-shadow: 1px -1px black;
   
-   
-}
+  }
+  .menu-primaire ul li a:hover{
+    background-color: black;
+  }
 .menu-primaire a{
     margin-top: -35px;
     font-size: 2.4em;
@@ -129,7 +131,6 @@
   margin: 30px;
   text-shadow: 1px -1px black;
   
- 
 }
 .les-boutons a{
   background-color: rgb(227, 68, 10);
@@ -141,6 +142,10 @@
   padding: 5px;
   border-radius: 5px;
   margin-right: 100px;
+  box-shadow: 1px -1px black;
+}
+.les-boutons a:hover{
+  background-color: black;
 }
 .les-images1 img{
   width: 200px;
@@ -210,4 +215,49 @@
     color: rgb(227, 68, 10);
     font-size: 1.5em;
   }
+  .box{
+    display: flex;
+   padding: 30px;
+   margin-left: 30px;
+
+  }
+  .box-image1 img{
+    width: 400px;
+    height: 300px;
+    
+    
+   
+  }
+  .box-image2 img{
+    width: 400px;
+    height: 300px;
+    padding: 80px;
+    margin-left: -100px;
+    
+}
+.box-text p{
+  text-align: center;
+  font-size: 1.2em;
+  color: black;
+  text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 50px;
+  word-spacing: 5px;
+ line-height: 27px;
+
+}
+.box-text a{
+  color: white;
+  background-color: rgb(227, 68, 10);
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 7px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.box-text a:hover{
+  background-color: rgb(8, 165, 37);
+  color: white;
+}
+  
   
