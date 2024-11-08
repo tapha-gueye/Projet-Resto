@@ -281,8 +281,11 @@ body{
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   padding: 15px;
 }
+.les-autres img:hover{
+  background-color: rgb(227, 68, 10);
+}
 .les-autres a{
-  background-color: rgb(8, 165, 37);
+  background-color: rgb(227, 68, 10);
   text-decoration: none;
   border-radius: 5px;
   text-transform: capitalize;
@@ -290,9 +293,9 @@ body{
   padding: 2px;
   font-size: 1.5em;
  margin-left: 100px;
- 
- 
- 
+}
+.les-autres a:hover{
+  background-color: rgb(8, 165, 37);
 }
 
   
