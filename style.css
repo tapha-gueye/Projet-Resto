@@ -173,13 +173,41 @@
   
 }
 .titre-de-accueil h1 span{
-  color: rgb(227, 68, 10);;
+  color: rgb(227, 68, 10);
 }
 .titre-de-accueil h1 img{
   width: 80px;
   height: 80px;
  
 }
+.les-délices{
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid rgb(227, 68, 10);
+  border-radius: 5px;
   
-
+}
+  .les-produits img{
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 1px -1px black;
+  }
+  .les-produits{
+    padding-left: 30px;
+    margin-left: 110px;
+  }
+  .les-produits p{
+    text-align: center;
+  }
+  .les-produits h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .les-produits h3{
+    text-align: center;
+    color: rgb(227, 68, 10);
+    font-size: 1.5em;
+  }
   
