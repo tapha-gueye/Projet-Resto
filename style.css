@@ -395,7 +395,16 @@ body{
     transform: translateX(0);
   }
 }
+.footer{
+  display: flex;
+  padding: 30px;
+  background-color: rgb(227, 68, 10);
+}
 
+.titre-footer{
+  margin-left: 20px;
+  padding: 20px;
+}
 
 
 
