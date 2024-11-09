@@ -307,6 +307,7 @@ body{
 }
 .titre-témoignage h1{
   color: rgb(227, 68, 10);
+  padding: 20px;
   font-size: 2em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: capitalize;
@@ -316,23 +317,33 @@ body{
   display: flex;
   padding: 10px;
   background-color: white;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 500px;
+  margin-right: 500px;
   border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+    max-width: 50%;
+    overflow: hidden;
+
+}
+.slader:hover{
+  transform: translateY(-8);
 }
 .slades{
-  margin-left: 25px;
+  margin-left: 20px;
   display: flex;
-  
+  animation: gliss 20s infinite;
 }
 .slade img{
-  float: left;
-  width: 100px;
-  height: 150px;
+  float: right;
+  width: 420px;
+  height: 500px;
   padding: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
   border-radius: 5px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .slade img:hover{
   background-color: rgb(227, 68, 10);
@@ -356,7 +367,35 @@ body{
   text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-
+@keyframes gliss{
+  0%{
+    transform: translateX(0);
+  }
+  10%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-500px);
+  }
+  43%{
+    transform: translateX(-500px);
+  }
+  63%{
+    transform: translateX(-500px);
+  }
+  66%{
+    transform: translateX(-1000);
+  }
+  76%{
+    transform: translateX(-1000);
+  }
+  90%{
+    transform: translateX(-1000);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
 
 
 
