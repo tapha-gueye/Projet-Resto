@@ -86,6 +86,7 @@ body{
     overflow: hidden;
     width: 300px; 
     background-color: #f3f3f3; 
+    margin: 30px;
   }
   
   
@@ -151,7 +152,7 @@ body{
   padding: 5px;
   border-radius: 5px;
   margin-right: 100px;
-  box-shadow: 1px -1px black;
+  box-shadow: 2px 2px 3px black;
 }
 .les-boutons a:hover{
   background-color: black;
@@ -174,14 +175,15 @@ body{
  
 }
 .titre-de-accueil h1{
-  margin-top: 100px;
+  margin-top: 80px;
   font-family: 'Poppins', sans-serif;
   font-size: 3em;
   color: rgb(8, 165, 37);
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
-  padding: -50px;
+  padding: 25px;
   text-shadow: 1px -1px black;
+  margin-left: 130px;
  
   
 }
@@ -253,7 +255,7 @@ body{
 .box-text p{
   text-align: center;
   font-size: 1.2em;
-  color: black;
+  color: white;
   text-transform: capitalize;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 50px;
@@ -315,7 +317,8 @@ body{
 }
 .slader{
   display: flex;
-  padding: 10px;
+ padding-left: -5px;
+ padding-right: 50px;
   background-color: white;
   margin-left: 500px;
   margin-right: 500px;
@@ -330,6 +333,7 @@ body{
   transform: translateY(-8);
 }
 .slades{
+  margin-right: 25px;
   margin-left: 20px;
   display: flex;
   animation: gliss 20s infinite;
@@ -339,8 +343,8 @@ body{
   width: 420px;
   height: 500px;
   padding: 10px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 28px;
+  margin-right: 28px;
   border-radius: 5px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
@@ -371,31 +375,27 @@ body{
   0%{
     transform: translateX(0);
   }
-  10%{
+  20%{
     transform: translateX(0);
   }
-  33%{
+  40%{
     transform: translateX(-500px);
   }
-  43%{
+  60%{
     transform: translateX(-500px);
   }
-  63%{
-    transform: translateX(-500px);
-  }
-  66%{
-    transform: translateX(-1000);
-  }
-  76%{
-    transform: translateX(-1000);
+  80%{
+    transform: translateX(-1000px);
   }
   90%{
-    transform: translateX(-1000);
+    transform: translateX(-1000px);
   }
+  
   100%{
     transform: translateX(0);
   }
 }
+
 
 
 
