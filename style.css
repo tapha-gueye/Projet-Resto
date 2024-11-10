@@ -399,12 +399,63 @@ body{
   display: flex;
   padding: 30px;
   background-color: rgb(227, 68, 10);
+  
 }
 
-.titre-footer{
-  margin-left: 20px;
-  padding: 20px;
+.menu-footer{
+  margin-left: 100px;
+  padding-left: 120px;
+  
 }
+.menu-footer h1{
+  font-size: 3.5em;
+  font-family: 'Poppins', sans-serif;
+  margin-left: -100px;
+  color: white;
+  margin-top: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+.menu-footer h1 span{
+  color: rgb(8, 165, 37);
+}
+.menu-footer h1 img{
+  width: 90px;
+  height: 80px;
+ 
+}
+
+.menu-footer ul{
+  text-decoration: none;
+ 
+}
+.menu-footer h2{
+  color: black;
+  font-size: 2em;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+.menu-footer ul li{
+  color: white;
+  font-size: 1.5em;
+  list-style-type: none;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.menu-footer ul li a{
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+.footer-réseaux-sociaux ul{
+  display: flex;
+}
+.footer-réseaux-sociaux ul li{
+  padding: 5px;
+}
+
+
 
 
 
