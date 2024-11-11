@@ -455,6 +455,19 @@ body{
   padding: 5px;
 }
 
+@media (max-width: 768%) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Téléphones */
+@media (max-width: 480%) {
+  .Menu {
+    font-size: 14%;
+  }
+}
+
 
 
 
