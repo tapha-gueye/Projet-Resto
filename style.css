@@ -162,6 +162,7 @@ body{
   height: 300px;
   padding-left: 900px;
   margin-top: -400px;
+ 
   
 }
 .les-images2 img{
@@ -241,6 +242,8 @@ body{
   .box-image1 img{
     width: 400px;
     height: 300px;
+    border-top-left-radius: 150px;
+ 
     
     
    
@@ -250,6 +253,9 @@ body{
     height: 300px;
     padding: 80px;
     margin-left: -100px;
+    border-bottom-right-radius: 200px;
+   
+ 
     
 }
 .box-text p{
