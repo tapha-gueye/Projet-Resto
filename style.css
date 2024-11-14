@@ -111,12 +111,12 @@ body{
   }
   
   
-  .search-bar input[type="search"]:focus {
+  .search-bar input[type="search"]:focus{
     background-color: #e0f7ff; 
   }
   
   
-  .search-bar button:hover {
+  .search-bar button:hover{
     background: rgb(227, 68, 10);
   }
   .réseaux-sociaux ul{
@@ -130,12 +130,13 @@ body{
    
    }
   .réseaux-sociaux ul li a{
-    background-color: white;
-    color: rgb(227, 68, 10);
+    color: black;
     font-size: 1.5em;
    border-radius: 5px;
    
-    
+}
+.réseaux-sociaux ul li a:hover{
+  color: rgb(227, 68, 10);
 }
 .les-boutons{
   margin: 30px;
@@ -216,6 +217,7 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
    
   }
+  
   .les-produits{
     padding-left: 30px;
     margin-left: 25px;
